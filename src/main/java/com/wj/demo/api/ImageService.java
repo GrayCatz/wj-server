@@ -23,6 +23,9 @@ public interface ImageService {
 
     @RequestMapping("/api/v1/image/remove")
     Response remove(Long id);
+
+    @RequestMapping("/api/v1/image/upload")
+    Response upload();
 }
 
 
