@@ -8,6 +8,7 @@ import com.wj.demo.converter.ProductDetailConverter;
 import com.wj.demo.converter.ProductPagingConverter;
 import com.wj.demo.dto.req.ProductAddReq;
 import com.wj.demo.dto.req.ProductPagingReq;
+import com.wj.demo.dto.req.ProductStatusUpdateReq;
 import com.wj.demo.entity.Brand;
 import com.wj.demo.entity.Category;
 import com.wj.demo.entity.Product;
@@ -85,6 +86,17 @@ public class ProductController extends BaseController implements ProductService 
         Optional<Product> optional = productRepository.findById(id);
         if (!optional.isPresent()) throw new ApiException("未找到该产品");
         productRepository.delete(optional.get());
+        return new Response();
+    }
+
+    @Override
+    public Response statusUpdate(ProductStatusUpdateReq req) throws Exception {
+
+        Optional<Product> optional = productRepository.findById(req.getId());
+        if (!optional.isPresent()) throw new ApiException("未找到该产品");
+        Product product = optional.get();
+        product.setStatus(Product.Status.valueOf(req.getStatus().name()));
+        productRepository.save(product);
         return new Response();
     }
 

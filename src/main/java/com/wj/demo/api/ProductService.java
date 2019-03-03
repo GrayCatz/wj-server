@@ -3,6 +3,7 @@ package com.wj.demo.api;
 import com.wj.demo.base.Response;
 import com.wj.demo.dto.req.ProductAddReq;
 import com.wj.demo.dto.req.ProductPagingReq;
+import com.wj.demo.dto.req.ProductStatusUpdateReq;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -20,6 +21,10 @@ public interface ProductService {
     @RequestMapping("/api/v1/product/remove")
     Response remove(Long id) throws Exception;
 
+
+    //详情
+    @RequestMapping("/api/v1/product_status/update")
+    Response statusUpdate(ProductStatusUpdateReq req) throws Exception;
 
     //详情
     @RequestMapping("/api/v1/product/add")
