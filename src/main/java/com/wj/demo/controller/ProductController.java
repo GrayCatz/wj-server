@@ -112,10 +112,10 @@ public class ProductController extends BaseController implements ProductService 
         product.setCreateTime(System.currentTimeMillis());
         Brand brand = brandRepository.findByChName(req.getBrand());
         if (brand == null) throw new ApiException("未找到该品牌");
-        product.setBrand(brand);
+        product.setBrandId(brand.getId());
         Category category = categoryRepository.findByName(req.getCategory());
         if (category == null) throw new ApiException("未找到该类别");
-        product.setCategory(category);
+        product.setCategoryId(category.getId());
         product.setStatus(req.getStatus() == ProductAddReq.Status.ENABLE ? Product.Status.ENABLE : Product.Status.DISABLE);
         productRepository.save(product);
         if (req.getRequired() != null) {

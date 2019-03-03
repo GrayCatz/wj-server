@@ -32,13 +32,20 @@ public class Product extends BaseEntity {
     }
 
     @OneToOne(cascade = CascadeType.PERSIST)//People是关系的维护端，当删除 people，会级联删除 address
-    @JoinColumn(name = "brand_id", referencedColumnName = "id")//people中的address_id字段参考address表中的id字段
+    @JoinColumn(name = "brand_id", referencedColumnName = "id", insertable = false, updatable = false)
+//people中的address_id字段参考address表中的id字段
     private Brand brand;//发布人id
 
     @OneToOne(cascade = CascadeType.PERSIST)//People是关系的维护端，当删除 people，会级联删除 address
-    @JoinColumn(name = "category_id", referencedColumnName = "id")//people中的address_id字段参考address表中的id字段
+    @JoinColumn(name = "category_id", referencedColumnName = "id", insertable = false, updatable = false)
+//people中的address_id字段参考address表中的id字段
     private Category category;//发布人id
 
+    @Column(name = "brand_id")
+    private Long brandId;//图片id
+
+    @Column(name = "category_id")
+    private Long categoryId;//图片id
 
     @OneToMany(mappedBy = "productId", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     //级联保存、更新、删除、刷新;延迟加载。当删除用户，会级联删除该用户的所有文章
