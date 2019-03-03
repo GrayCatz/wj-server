@@ -58,9 +58,10 @@ public class ImageController extends BaseController implements ImageService {
     }
 
     @Override
-    @Transactional(rollbackFor = Exception.class)
+//    @Transactional(rollbackFor = Exception.class)
     public Response batchAdd(ImageBatchAddReq dto) {
         try {
+            List<Image> images = new ArrayList<>();
             for (ImageBatchAddReq.Image item : dto.getImages()) {
                 Image image = new Image();
                 String[] split1 = item.getName().split("\\.");
@@ -83,8 +84,9 @@ public class ImageController extends BaseController implements ImageService {
                 image.setType(type);
                 image.setUrl(item.getUrl());
                 image.setCreateTime(System.currentTimeMillis());
-                imageRepository.save(image);
+                images.add(image);
             }
+            imageRepository.saveAll(images);
         } catch (Exception e) {
             e.printStackTrace();
             throw new ApiException("导入文件失败");
