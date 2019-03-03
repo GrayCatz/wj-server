@@ -1,0 +1,30 @@
+server:
+  port: 2003
+#  ���÷�����
+logging:
+    config: classpath:logback-boot.xml
+spring:
+  application:
+    name: order-service
+  profiles:
+    active: product
+  datasource:
+    url: jdbc:mysql://localhost:3306/cosmetics?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: UTC
+
+
+##  ����ע�����ĵ�ַ
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:2000/eureka

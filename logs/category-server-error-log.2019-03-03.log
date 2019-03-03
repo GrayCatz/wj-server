@@ -1,0 +1,634 @@
+2019-03-03 00:22:50.778 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 00:31:03.907 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 00:31:11.881 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - null
+2019-03-03 00:31:11.963 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1\",\"data\":\"程序出现异常\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:31:38.600 [http-nio-2002-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:31:38.601 [http-nio-2002-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1\",\"data\":\"程序出现异常\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:31:38.900 [http-nio-2002-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2019-03-03 00:32:28.390 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 00:32:30.600 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - null
+2019-03-03 00:32:30.664 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1\",\"data\":\"程序出现异常1\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:33:21.645 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 00:33:26.297 [http-nio-2002-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - null
+2019-03-03 00:33:26.360 [http-nio-2002-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1\",\"data\":\"程序出现异常1\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:33:41.288 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 00:33:46.979 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - null
+2019-03-03 00:33:47.042 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1\",\"data\":\"程序出现异常1\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:36:01.941 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 00:38:09.072 [http-nio-2002-exec-7] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:38:09.230 [http-nio-2002-exec-7] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1\",\"data\":\"程序出现异常1\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:38:16.510 [http-nio-2002-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:38:16.511 [http-nio-2002-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1\",\"data\":\"程序出现异常1\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:46:21.755 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:46:21.755 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1\",\"data\":\"程序出现异常1\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:46:23.985 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:46:23.985 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1\",\"data\":\"程序出现异常1\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:46:28.779 [http-nio-2002-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:46:28.779 [http-nio-2002-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1\",\"data\":\"程序出现异常1\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:46:30.324 [http-nio-2002-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:46:30.325 [http-nio-2002-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1\",\"data\":\"程序出现异常1\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:47:28.306 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 00:49:22.575 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 00:49:30.228 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:49:30.287 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1\",\"data\":\"程序出现异常1\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:50:45.212 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 00:50:50.415 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:50:50.474 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1\",\"data\":\"请先登录\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:51:32.119 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 00:51:33.292 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:51:33.353 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:52:47.558 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:52:47.558 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:53:07.107 [http-nio-2002-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:53:07.108 [http-nio-2002-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:53:09.617 [http-nio-2002-exec-9] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:53:09.617 [http-nio-2002-exec-9] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:54:31.621 [http-nio-2002-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:54:31.622 [http-nio-2002-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:55:06.898 [http-nio-2002-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:55:06.899 [http-nio-2002-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:55:11.849 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:55:11.850 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:56:35.768 [http-nio-2002-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:56:35.769 [http-nio-2002-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:56:44.128 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:56:44.129 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:57:18.838 [http-nio-2002-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:57:18.838 [http-nio-2002-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:58:16.339 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:58:16.339 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:58:20.088 [http-nio-2002-exec-7] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:58:20.089 [http-nio-2002-exec-7] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:58:38.561 [http-nio-2002-exec-9] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:58:38.561 [http-nio-2002-exec-9] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:59:09.152 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:59:09.153 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:59:39.804 [http-nio-2002-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:59:39.804 [http-nio-2002-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 00:59:43.709 [http-nio-2002-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 00:59:43.709 [http-nio-2002-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:00:08.049 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:00:08.050 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:00:13.205 [http-nio-2002-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:00:13.205 [http-nio-2002-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:00:21.832 [http-nio-2002-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:00:21.832 [http-nio-2002-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:00:40.092 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:00:40.092 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:01:13.721 [http-nio-2002-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:01:13.721 [http-nio-2002-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:01:28.075 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:01:28.075 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:01:42.982 [http-nio-2002-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:01:42.982 [http-nio-2002-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:04:03.768 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:04:03.768 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:04:17.910 [http-nio-2002-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:04:17.910 [http-nio-2002-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:04:36.836 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:04:36.837 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:05:07.404 [http-nio-2002-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:05:07.404 [http-nio-2002-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:05:24.848 [http-nio-2002-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:05:24.849 [http-nio-2002-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:05:56.549 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:05:56.549 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:06:22.981 [http-nio-2002-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:06:22.982 [http-nio-2002-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:06:38.319 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:06:38.319 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:06:45.548 [http-nio-2002-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:06:45.548 [http-nio-2002-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:06:48.503 [http-nio-2002-exec-9] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:06:48.503 [http-nio-2002-exec-9] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:06:51.995 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:06:51.995 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:10:38.810 [http-nio-2002-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:10:38.810 [http-nio-2002-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:10:47.311 [http-nio-2002-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:10:47.312 [http-nio-2002-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"0\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:11:04.825 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+2019-03-03 01:11:04.825 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\":id\"]}","respParams":"{\"code\":\"0\",\"msg\":\"Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: \\\":id\\\"\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/product/get"}
+2019-03-03 01:14:26.907 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 01:15:02.205 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+2019-03-03 01:15:02.216 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\":id\"]}","respParams":"{\"code\":\"1\",\"data\":\"系统繁忙，请稍后再试\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/product/get"}
+2019-03-03 01:15:16.301 [http-nio-2002-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:15:16.301 [http-nio-2002-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"]}","respParams":"{\"code\":\"1000\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/product/paging"}
+2019-03-03 01:25:07.274 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - 密码错误
+2019-03-03 01:25:07.277 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"password\":[\"d93f0e1e463ba5d41db4338c432a7c67\"],\"username\":[\"admin\"]}","respParams":"{\"code\":\"1\",\"data\":\"系统繁忙，请稍后再试\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/token/add"}
+2019-03-03 01:25:07.584 [http-nio-2002-exec-7] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:25:07.585 [http-nio-2002-exec-7] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1000\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:25:22.244 [http-nio-2002-exec-9] ERROR com.wj.demo.advice.GlobalExceptionHandler - 该用户不存在
+2019-03-03 01:25:22.244 [http-nio-2002-exec-9] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"password\":[\"20838a8df7cc0babd745c7af4b7d94e2\"],\"username\":[\"dfsaf\"]}","respParams":"{\"code\":\"1\",\"data\":\"系统繁忙，请稍后再试\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/token/add"}
+2019-03-03 01:25:22.431 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:25:22.432 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1000\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:26:20.143 [http-nio-2002-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - 该用户不存在
+2019-03-03 01:26:20.143 [http-nio-2002-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"password\":[\"20a47baf0a7e0a72d7d917553ee5692c\"],\"username\":[\"asdfas\"]}","respParams":"{\"code\":\"1\",\"data\":\"系统繁忙，请稍后再试\",\"msg\":\"OK\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/token/add"}
+2019-03-03 01:26:20.528 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - 请先登录
+2019-03-03 01:26:20.529 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"name\":[\"\"],\"page\":[\"\"],\"size\":[\"\"],\"type\":[\"\"]}","respParams":"{\"code\":\"1000\",\"msg\":\"请先登录\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/image/paging"}
+2019-03-03 01:27:01.158 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 01:27:07.399 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - 该用户不存在
+2019-03-03 01:27:07.460 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"password\":[\"2967559bc3e0563837533235e40dadc5\"],\"username\":[\"dasfas\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/token/add"}
+2019-03-03 01:27:35.533 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 01:27:42.779 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - 该用户不存在
+2019-03-03 01:27:42.841 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"password\":[\"14f75540ec51b468cba8eafefd4c4d5a\"],\"username\":[\"fdasfa\"]}","respParams":"{\"code\":\"0\",\"msg\":\"该用户不存在\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/token/add"}
+2019-03-03 01:27:49.049 [http-nio-2002-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - 密码错误
+2019-03-03 01:27:49.049 [http-nio-2002-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"password\":[\"14f75540ec51b468cba8eafefd4c4d5a\"],\"username\":[\"admin\"]}","respParams":"{\"code\":\"0\",\"msg\":\"密码错误\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/token/add"}
+2019-03-03 01:28:17.195 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - 该用户不存在
+2019-03-03 01:28:17.195 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"password\":[\"723c80cb32b3b75c31e7373e17afbc99\"],\"username\":[\"dsfas\"]}","respParams":"{\"code\":\"0\",\"msg\":\"该用户不存在\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/token/add"}
+2019-03-03 01:28:46.680 [http-nio-2002-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - 该用户不存在
+2019-03-03 01:28:46.680 [http-nio-2002-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"password\":[\"2a1f4b0c7db3eee8349df1f7f57d3f47\"],\"username\":[\"sadfasf\"]}","respParams":"{\"code\":\"0\",\"msg\":\"该用户不存在\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/token/add"}
+2019-03-03 01:28:50.721 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - 密码错误
+2019-03-03 01:28:50.721 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"password\":[\"2a1f4b0c7db3eee8349df1f7f57d3f47\"],\"username\":[\"admin\"]}","respParams":"{\"code\":\"0\",\"msg\":\"密码错误\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/token/add"}
+2019-03-03 01:29:28.603 [http-nio-2002-exec-7] ERROR com.wj.demo.advice.GlobalExceptionHandler - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+2019-03-03 01:29:28.604 [http-nio-2002-exec-7] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\":id\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/product/get"}
+2019-03-03 01:29:29.420 [http-nio-2002-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+2019-03-03 01:29:29.421 [http-nio-2002-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\":id\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/product/get"}
+2019-03-03 01:29:33.711 [http-nio-2002-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+2019-03-03 01:29:33.711 [http-nio-2002-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\":id\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/appraisal/get"}
+2019-03-03 01:29:35.728 [http-nio-2002-exec-9] ERROR com.wj.demo.advice.GlobalExceptionHandler - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+2019-03-03 01:29:35.728 [http-nio-2002-exec-9] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\":id\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/appraisal/get"}
+2019-03-03 01:29:38.350 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+2019-03-03 01:29:38.350 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\":id\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/product/get"}
+2019-03-03 01:29:52.653 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - No value present
+2019-03-03 01:29:52.653 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"9\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/appraisal/get"}
+2019-03-03 01:30:54.073 [http-nio-2002-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+2019-03-03 01:30:54.073 [http-nio-2002-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\":id\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/product/get"}
+2019-03-03 01:52:46.389 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 01:52:57.968 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+2019-03-03 01:52:57.981 [http-nio-2002-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\":id\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/product/get"}
+2019-03-03 01:53:01.425 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 01:53:01.426 [http-nio-2002-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/product/get"}
+2019-03-03 01:53:15.541 [http-nio-2002-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+2019-03-03 01:53:15.541 [http-nio-2002-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\":id\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/appraisal/get"}
+2019-03-03 01:56:25.210 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 02:01:49.430 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 02:02:35.370 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Appraisal.images, could not initialize proxy - no Session
+2019-03-03 02:02:35.437 [http-nio-2002-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2002/api/v1/appraisal/get"}
+2019-03-03 02:03:38.413 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 02:03:38.652 [main] ERROR org.apache.catalina.util.LifecycleBase - Failed to start component [Connector[HTTP/1.1-2002]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.wj.demo.DemoApplication.main(DemoApplication.java:10)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-03-03 02:03:38.667 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 2002 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 2002, or configure this application to listen on another port.
+
+2019-03-03 02:06:39.705 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 02:06:39.945 [main] ERROR org.apache.catalina.util.LifecycleBase - Failed to start component [Connector[HTTP/1.1-2002]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.wj.demo.DemoApplication.main(DemoApplication.java:10)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-03-03 02:06:39.960 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 2002 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 2002, or configure this application to listen on another port.
+
+2019-03-03 02:06:59.950 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 02:07:40.382 [http-nio-2003-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Appraisal.images, could not initialize proxy - no Session
+2019-03-03 02:07:40.441 [http-nio-2003-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 02:07:43.966 [http-nio-2003-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Appraisal.images, could not initialize proxy - no Session
+2019-03-03 02:07:43.966 [http-nio-2003-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 02:09:25.331 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 02:12:43.414 [http-nio-2003-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+2019-03-03 02:12:43.491 [http-nio-2003-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\":id\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 02:23:51.283 [http-nio-2003-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 02:23:51.283 [http-nio-2003-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"10\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 02:24:19.408 [http-nio-2003-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 02:24:19.408 [http-nio-2003-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"10\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 02:25:06.947 [http-nio-2003-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+2019-03-03 02:25:06.947 [http-nio-2003-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\":id\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 02:47:31.902 [http-nio-2003-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /api/v1/appraisal_result/update
+2019-03-03 02:47:51.348 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 02:50:55.794 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 03:05:24.700 [http-nio-2003-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 03:05:24.803 [http-nio-2003-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"11\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 03:05:28.083 [http-nio-2003-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 03:05:28.083 [http-nio-2003-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"10\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 03:05:31.653 [http-nio-2003-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 03:05:31.654 [http-nio-2003-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"5\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 03:05:34.977 [http-nio-2003-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 03:05:34.977 [http-nio-2003-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 03:05:42.459 [http-nio-2003-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 03:05:42.460 [http-nio-2003-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 03:06:10.434 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Product.images, com.wj.demo.entity.Appraisal.images]
+2019-03-03 03:06:10.457 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Product.images, com.wj.demo.entity.Appraisal.images]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.wj.demo.DemoApplication.main(DemoApplication.java:10)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Product.images, com.wj.demo.entity.Appraisal.images]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 16 common frames omitted
+Caused by: org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Product.images, com.wj.demo.entity.Appraisal.images]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadQueryDetails.generate(AbstractLoadQueryDetails.java:211)
+	at org.hibernate.loader.plan.exec.internal.EntityLoadQueryDetails.<init>(EntityLoadQueryDetails.java:85)
+	at org.hibernate.loader.plan.exec.internal.BatchingLoadQueryDetailsFactory.makeEntityLoadQueryDetails(BatchingLoadQueryDetailsFactory.java:61)
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.<init>(AbstractLoadPlanBasedEntityLoader.java:86)
+	at org.hibernate.loader.entity.plan.EntityLoader.<init>(EntityLoader.java:125)
+	at org.hibernate.loader.entity.plan.EntityLoader.<init>(EntityLoader.java:38)
+	at org.hibernate.loader.entity.plan.EntityLoader$Builder.byUniqueKey(EntityLoader.java:90)
+	at org.hibernate.loader.entity.plan.EntityLoader$Builder.byPrimaryKey(EntityLoader.java:83)
+	at org.hibernate.loader.entity.plan.AbstractBatchingEntityLoaderBuilder.buildNonBatchingLoader(AbstractBatchingEntityLoaderBuilder.java:30)
+	at org.hibernate.loader.entity.BatchingEntityLoaderBuilder.buildLoader(BatchingEntityLoaderBuilder.java:59)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createEntityLoader(AbstractEntityPersister.java:2483)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createEntityLoader(AbstractEntityPersister.java:2505)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createLoaders(AbstractEntityPersister.java:4175)
+	at org.hibernate.persister.entity.AbstractEntityPersister.postInstantiate(AbstractEntityPersister.java:4151)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:230)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:295)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	... 20 common frames omitted
+2019-03-03 03:06:22.526 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Product.images, com.wj.demo.entity.Appraisal.images]
+2019-03-03 03:06:22.546 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Product.images, com.wj.demo.entity.Appraisal.images]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.wj.demo.DemoApplication.main(DemoApplication.java:10)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Product.images, com.wj.demo.entity.Appraisal.images]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 16 common frames omitted
+Caused by: org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Product.images, com.wj.demo.entity.Appraisal.images]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadQueryDetails.generate(AbstractLoadQueryDetails.java:211)
+	at org.hibernate.loader.plan.exec.internal.EntityLoadQueryDetails.<init>(EntityLoadQueryDetails.java:85)
+	at org.hibernate.loader.plan.exec.internal.BatchingLoadQueryDetailsFactory.makeEntityLoadQueryDetails(BatchingLoadQueryDetailsFactory.java:61)
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.<init>(AbstractLoadPlanBasedEntityLoader.java:86)
+	at org.hibernate.loader.entity.plan.EntityLoader.<init>(EntityLoader.java:125)
+	at org.hibernate.loader.entity.plan.EntityLoader.<init>(EntityLoader.java:38)
+	at org.hibernate.loader.entity.plan.EntityLoader$Builder.byUniqueKey(EntityLoader.java:90)
+	at org.hibernate.loader.entity.plan.EntityLoader$Builder.byPrimaryKey(EntityLoader.java:83)
+	at org.hibernate.loader.entity.plan.AbstractBatchingEntityLoaderBuilder.buildNonBatchingLoader(AbstractBatchingEntityLoaderBuilder.java:30)
+	at org.hibernate.loader.entity.BatchingEntityLoaderBuilder.buildLoader(BatchingEntityLoaderBuilder.java:59)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createEntityLoader(AbstractEntityPersister.java:2483)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createEntityLoader(AbstractEntityPersister.java:2505)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createLoaders(AbstractEntityPersister.java:4175)
+	at org.hibernate.persister.entity.AbstractEntityPersister.postInstantiate(AbstractEntityPersister.java:4151)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:230)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:295)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	... 20 common frames omitted
+2019-03-03 03:08:14.628 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 03:08:20.530 [http-nio-2003-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 03:08:20.599 [http-nio-2003-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 03:09:55.266 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 03:10:07.072 [http-nio-2003-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 03:10:07.142 [http-nio-2003-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 03:10:24.813 [http-nio-2003-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 03:10:24.813 [http-nio-2003-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 03:10:36.743 [http-nio-2003-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Appraisal.images, could not initialize proxy - no Session
+2019-03-03 03:10:36.744 [http-nio-2003-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 03:11:40.721 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Appraisal.images, com.wj.demo.entity.Product.images]
+2019-03-03 03:11:40.741 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Appraisal.images, com.wj.demo.entity.Product.images]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.wj.demo.DemoApplication.main(DemoApplication.java:10)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Appraisal.images, com.wj.demo.entity.Product.images]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 16 common frames omitted
+Caused by: org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Appraisal.images, com.wj.demo.entity.Product.images]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadQueryDetails.generate(AbstractLoadQueryDetails.java:211)
+	at org.hibernate.loader.plan.exec.internal.EntityLoadQueryDetails.<init>(EntityLoadQueryDetails.java:85)
+	at org.hibernate.loader.plan.exec.internal.BatchingLoadQueryDetailsFactory.makeEntityLoadQueryDetails(BatchingLoadQueryDetailsFactory.java:61)
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.<init>(AbstractLoadPlanBasedEntityLoader.java:86)
+	at org.hibernate.loader.entity.plan.EntityLoader.<init>(EntityLoader.java:125)
+	at org.hibernate.loader.entity.plan.EntityLoader.<init>(EntityLoader.java:38)
+	at org.hibernate.loader.entity.plan.EntityLoader$Builder.byUniqueKey(EntityLoader.java:90)
+	at org.hibernate.loader.entity.plan.EntityLoader$Builder.byPrimaryKey(EntityLoader.java:83)
+	at org.hibernate.loader.entity.plan.AbstractBatchingEntityLoaderBuilder.buildNonBatchingLoader(AbstractBatchingEntityLoaderBuilder.java:30)
+	at org.hibernate.loader.entity.BatchingEntityLoaderBuilder.buildLoader(BatchingEntityLoaderBuilder.java:59)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createEntityLoader(AbstractEntityPersister.java:2483)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createEntityLoader(AbstractEntityPersister.java:2505)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createLoaders(AbstractEntityPersister.java:4175)
+	at org.hibernate.persister.entity.AbstractEntityPersister.postInstantiate(AbstractEntityPersister.java:4151)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:230)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:295)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	... 20 common frames omitted
+2019-03-03 03:12:05.725 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Product.images, com.wj.demo.entity.Appraisal.images]
+2019-03-03 03:12:05.747 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Product.images, com.wj.demo.entity.Appraisal.images]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.wj.demo.DemoApplication.main(DemoApplication.java:10)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Product.images, com.wj.demo.entity.Appraisal.images]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 16 common frames omitted
+Caused by: org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Product.images, com.wj.demo.entity.Appraisal.images]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadQueryDetails.generate(AbstractLoadQueryDetails.java:211)
+	at org.hibernate.loader.plan.exec.internal.EntityLoadQueryDetails.<init>(EntityLoadQueryDetails.java:85)
+	at org.hibernate.loader.plan.exec.internal.BatchingLoadQueryDetailsFactory.makeEntityLoadQueryDetails(BatchingLoadQueryDetailsFactory.java:61)
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.<init>(AbstractLoadPlanBasedEntityLoader.java:86)
+	at org.hibernate.loader.entity.plan.EntityLoader.<init>(EntityLoader.java:125)
+	at org.hibernate.loader.entity.plan.EntityLoader.<init>(EntityLoader.java:38)
+	at org.hibernate.loader.entity.plan.EntityLoader$Builder.byUniqueKey(EntityLoader.java:90)
+	at org.hibernate.loader.entity.plan.EntityLoader$Builder.byPrimaryKey(EntityLoader.java:83)
+	at org.hibernate.loader.entity.plan.AbstractBatchingEntityLoaderBuilder.buildNonBatchingLoader(AbstractBatchingEntityLoaderBuilder.java:30)
+	at org.hibernate.loader.entity.BatchingEntityLoaderBuilder.buildLoader(BatchingEntityLoaderBuilder.java:59)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createEntityLoader(AbstractEntityPersister.java:2483)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createEntityLoader(AbstractEntityPersister.java:2505)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createLoaders(AbstractEntityPersister.java:4175)
+	at org.hibernate.persister.entity.AbstractEntityPersister.postInstantiate(AbstractEntityPersister.java:4151)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:230)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:295)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	... 20 common frames omitted
+2019-03-03 03:12:23.780 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Appraisal.images, com.wj.demo.entity.Product.images]
+2019-03-03 03:12:23.801 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Appraisal.images, com.wj.demo.entity.Product.images]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.wj.demo.DemoApplication.main(DemoApplication.java:10)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Appraisal.images, com.wj.demo.entity.Product.images]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 16 common frames omitted
+Caused by: org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.wj.demo.entity.Appraisal.images, com.wj.demo.entity.Product.images]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadQueryDetails.generate(AbstractLoadQueryDetails.java:211)
+	at org.hibernate.loader.plan.exec.internal.EntityLoadQueryDetails.<init>(EntityLoadQueryDetails.java:85)
+	at org.hibernate.loader.plan.exec.internal.BatchingLoadQueryDetailsFactory.makeEntityLoadQueryDetails(BatchingLoadQueryDetailsFactory.java:61)
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.<init>(AbstractLoadPlanBasedEntityLoader.java:86)
+	at org.hibernate.loader.entity.plan.EntityLoader.<init>(EntityLoader.java:125)
+	at org.hibernate.loader.entity.plan.EntityLoader.<init>(EntityLoader.java:38)
+	at org.hibernate.loader.entity.plan.EntityLoader$Builder.byUniqueKey(EntityLoader.java:90)
+	at org.hibernate.loader.entity.plan.EntityLoader$Builder.byPrimaryKey(EntityLoader.java:83)
+	at org.hibernate.loader.entity.plan.AbstractBatchingEntityLoaderBuilder.buildNonBatchingLoader(AbstractBatchingEntityLoaderBuilder.java:30)
+	at org.hibernate.loader.entity.BatchingEntityLoaderBuilder.buildLoader(BatchingEntityLoaderBuilder.java:59)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createEntityLoader(AbstractEntityPersister.java:2483)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createEntityLoader(AbstractEntityPersister.java:2505)
+	at org.hibernate.persister.entity.AbstractEntityPersister.createLoaders(AbstractEntityPersister.java:4175)
+	at org.hibernate.persister.entity.AbstractEntityPersister.postInstantiate(AbstractEntityPersister.java:4151)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:230)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:295)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	... 20 common frames omitted
+2019-03-03 03:13:28.244 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 03:13:34.151 [http-nio-2003-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - could not initialize proxy [com.wj.demo.entity.Product#1] - no Session
+2019-03-03 03:13:34.219 [http-nio-2003-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 03:14:15.802 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 03:14:23.240 [http-nio-2003-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - could not initialize proxy [com.wj.demo.entity.Product#1] - no Session
+2019-03-03 03:14:23.303 [http-nio-2003-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 03:15:07.045 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 03:15:10.823 [http-nio-2003-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - could not initialize proxy [com.wj.demo.entity.Product#1] - no Session
+2019-03-03 03:15:10.883 [http-nio-2003-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 03:15:58.704 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 03:16:04.063 [http-nio-2003-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - could not initialize proxy [com.wj.demo.entity.Product#1] - no Session
+2019-03-03 03:16:04.121 [http-nio-2003-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 03:16:37.220 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 03:16:41.841 [http-nio-2003-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - could not initialize proxy [com.wj.demo.entity.Product#1] - no Session
+2019-03-03 03:16:41.905 [http-nio-2003-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 03:17:22.284 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 03:17:26.921 [http-nio-2003-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - could not initialize proxy [com.wj.demo.entity.Brand#3] - no Session
+2019-03-03 03:17:26.979 [http-nio-2003-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 03:17:48.599 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 03:17:53.266 [http-nio-2003-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - could not initialize proxy [com.wj.demo.entity.Master#1] - no Session
+2019-03-03 03:17:53.325 [http-nio-2003-exec-1] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 03:18:11.893 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 03:18:21.810 [http-nio-2003-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Appraisal.images, could not initialize proxy - no Session
+2019-03-03 03:18:21.872 [http-nio-2003-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 03:19:01.889 [http-nio-2003-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Appraisal.images, could not initialize proxy - no Session
+2019-03-03 03:19:01.889 [http-nio-2003-exec-5] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 03:19:37.089 [http-nio-2003-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Appraisal.images, could not initialize proxy - no Session
+2019-03-03 03:19:37.089 [http-nio-2003-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"1\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 09:38:26.337 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not determine type for: java.util.List, at table: appraisal, for columns: [org.hibernate.mapping.Column(images)]
+2019-03-03 09:38:26.361 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not determine type for: java.util.List, at table: appraisal, for columns: [org.hibernate.mapping.Column(images)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.wj.demo.DemoApplication.main(DemoApplication.java:10)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not determine type for: java.util.List, at table: appraisal, for columns: [org.hibernate.mapping.Column(images)]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 16 common frames omitted
+Caused by: org.hibernate.MappingException: Could not determine type for: java.util.List, at table: appraisal, for columns: [org.hibernate.mapping.Column(images)]
+	at org.hibernate.mapping.SimpleValue.getType(SimpleValue.java:486)
+	at org.hibernate.mapping.SimpleValue.isValid(SimpleValue.java:453)
+	at org.hibernate.mapping.Property.isValid(Property.java:226)
+	at org.hibernate.mapping.PersistentClass.validate(PersistentClass.java:624)
+	at org.hibernate.mapping.RootClass.validate(RootClass.java:267)
+	at org.hibernate.boot.internal.MetadataImpl.validate(MetadataImpl.java:347)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:466)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	... 20 common frames omitted
+2019-03-03 09:39:14.496 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 09:39:29.036 [http-nio-2003-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - No value present
+2019-03-03 09:39:29.116 [http-nio-2003-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"11\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 09:39:41.726 [http-nio-2003-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - No value present
+2019-03-03 09:39:41.726 [http-nio-2003-exec-4] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"9\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 09:40:09.056 [http-nio-2003-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - No value present
+2019-03-03 09:40:09.056 [http-nio-2003-exec-10] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"10\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/appraisal/get"}
+2019-03-03 09:42:39.174 [http-nio-2003-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 09:42:39.175 [http-nio-2003-exec-6] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"11\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 09:42:41.721 [http-nio-2003-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 09:42:41.722 [http-nio-2003-exec-3] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"11\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 09:43:43.116 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 09:43:48.245 [http-nio-2003-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 09:43:48.321 [http-nio-2003-exec-8] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"11\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 09:44:35.498 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 09:45:14.345 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 09:45:24.841 [http-nio-2003-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - failed to lazily initialize a collection of role: com.wj.demo.entity.Product.images, could not initialize proxy - no Session
+2019-03-03 09:45:24.913 [http-nio-2003-exec-2] ERROR com.wj.demo.advice.GlobalExceptionHandler - >>>{"httpMethod":"GET","id":0,"ip":"127.0.0.1","logType":"LOG_TYPE_HTTP","reqParams":"{\"id\":[\"11\"]}","respParams":"{\"code\":\"0\",\"msg\":\"系统繁忙，请稍后再试\"}","spendTime":0,"url":"http://127.0.0.1:2003/api/v1/product/get"}
+2019-03-03 09:48:13.209 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 09:49:08.915 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 10:06:19.239 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-03 10:09:29.796 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
