@@ -16,7 +16,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.persistence.criteria.Predicate;
@@ -49,6 +48,7 @@ public class ImageController extends BaseController implements ImageService {
 
     @Override
     public Response add(@Valid ImageAddReq dto) {
+        if (dto.getUrl() == null || dto.getUrl().isEmpty()) throw new ApiException("请选择图片");
         Image image = new Image();
         image.setName(dto.getName());
         image.setType(Image.Type.valueOf(dto.getType().name()));
@@ -60,6 +60,7 @@ public class ImageController extends BaseController implements ImageService {
     @Override
 //    @Transactional(rollbackFor = Exception.class)
     public Response batchAdd(ImageBatchAddReq dto) {
+        if (dto.getImages() == null || dto.getImages().size() == 0) throw new ApiException("请选择图片");
         try {
             List<Image> images = new ArrayList<>();
             for (ImageBatchAddReq.Image item : dto.getImages()) {

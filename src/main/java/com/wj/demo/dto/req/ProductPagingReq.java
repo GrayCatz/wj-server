@@ -11,5 +11,7 @@ import java.io.Serializable;
 public class ProductPagingReq extends BasePageDTO implements Serializable {
 
     private String name;
+    private String category;
+    private String brand;
 
 }
