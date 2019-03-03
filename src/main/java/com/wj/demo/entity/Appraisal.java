@@ -17,15 +17,21 @@ import java.util.List;
 @Table(name = "appraisal")
 public class Appraisal extends BaseEntity {
 
+    @Column(columnDefinition="VARCHAR(255) COMMENT '订单号'")
     private String serial;//订单号
+    @Column(columnDefinition="VARCHAR(255) COMMENT '微信订单号'")
     private String wxSerial;//订单号
+    @Column(columnDefinition="VARCHAR(255) COMMENT '备注'")
     private String remark;//备注
     //    private Long brandId;//鉴别师id
 //    private Long masterId;//鉴别师id
 //    private Long productId;//产品id
+    @Column(columnDefinition="BIGINT(20) COMMENT '发布人id'")
     private Long userId;//发布人id
-    private Result result;//鉴别结果 0:假 1：真
-    private Status status;//状态 0：带鉴别  1：鉴别完成 2：拒绝鉴别
+    @Column(columnDefinition="VARCHAR(255) COMMENT '鉴别结果 INITIAL:待鉴定 REAL:假 FAKE：真'")
+    private Result result;//鉴别结果 INITIAL:待鉴定 REAL:假 FAKE：真
+    @Column(columnDefinition="VARCHAR(255) COMMENT '状态 INITIAL：待鉴定  DONE：鉴定完成 REFUSE：拒绝鉴定'")
+    private Status status;//状态 INITIAL：待鉴定  DONE：鉴定完成 REFUSE：拒绝鉴定
 
     public String getResultText() {
         switch (result) {
@@ -67,7 +73,7 @@ public class Appraisal extends BaseEntity {
     public String getStatusText() {
         switch (status) {
             case DONE:
-                return "已鉴定";
+                return "鉴定完成";
             case REFUSE:
                 return "拒绝鉴定";
             case INITIAL:

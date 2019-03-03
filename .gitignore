@@ -21,6 +21,7 @@ target/
 *.rar  
 *.tar  
 *.zip  
+*.log
 *.via
 *.tmp
 *.err 
